@@ -1,0 +1,85 @@
+body {
+
+    width: 500px;
+    margin: 0 auto;
+}
+
+.navigation-box {
+    display: grid;
+    grid-template: 100% / 1fr 1fr 1fr 1fr;
+    border: 2px solid black;
+    vertical-align: bottom;
+}
+
+p {
+    margin: 0 auto;
+}
+
+a {
+    margin-left: 10px
+}
+
+.doNot {
+    font-size: 10px;
+    margin: 0 auto;
+    margin-top: : 5px;
+}
+
+.doNot:visited {
+    color: red;
+}
+
+.doNot:link {
+    color: red;
+}
+
+.inputBox,
+.checkboxBox,
+.textAreaBox,
+.submitButton {
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.checkboxBox {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.checkboxBox label {
+    font-size: small;
+}
+
+li {
+    border: 1px solid black;
+    margin-bottom: 8px;
+}
+
+li p {
+    margin-left: 8px;
+}
+
+.imgGridBox {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-column-gap: 1px;
+    grid-row-gap: 23px;
+}
+
+.imgBox {
+    width: 160px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.imgBox img {
+    width: 100%;
+    height: 100%;
+    postion: left;
+    object-fit: cover;
+}
+
+a {
+    margin: 0 auto;
+}

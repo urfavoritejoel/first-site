@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form of Fun!</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Form of Fun!</h1>
+    <div class="navigation-box">
+        <a href="index.html">Home</a>
+        <a href="form-of-fun.html">Form of Fun!</a>
+        <a href="activities.html">Activities</a>
+        <a href="do-not-click.html" class="doNot">your favorite things</a>
+    </div>
+    <div class="pageHead">
+        <h1>Agreement</h1>
+        <p>Hey, thanks for clicking this link. This is an
+            extremely fun form which will hopefully teach you
+            some things about yourself!
+        </p>
+    </div>
+
+    <form>
+        <fieldset>
+            <legend>You Must Swear</legend>
+            <div class="formBox">
+                <div class="inputBox">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+                <div class="inputBox">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+                <div class="checkboxBox">
+                    <input type="checkbox" id="iSwear" name="i_swear">
+                    <label for="iSwear">I solemly swear not to click the last link.</label>
+                </div>
+                <div class="textAreaBox">
+                    <label for="pledge">Type the words "I solemnly swear not to click the last link"</label>
+                    <textarea id="pledge" name="pledge"></textarea>
+                </div>
+                <div class="submitButton">
+                    <button name="submit">Submit</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
